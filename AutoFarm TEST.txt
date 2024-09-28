@@ -1,0 +1,25 @@
+while game:GetService("RunService").RenderStepped:wait() do
+for i,v in pairs(game:GetDescendants()) do
+if v.Name == 'outerOrb' then
+v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+end
+
+for i,v in pairs(game:GetDescendants()) do
+if v.Name == 'Hoop' then
+v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+end
+
+for i,v in pairs(game:GetDescendants()) do
+if v.Name == 'outerGem' then
+v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+end
+
+for i,v in pairs(game:GetDescendants()) do
+if v.Name == 'circleInner' then
+v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+end
+end
